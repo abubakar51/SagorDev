@@ -160,7 +160,7 @@ export default function Hero() {
                   )}
                   <div className="absolute bottom-3 left-3 right-3 p-3 rounded-xl bg-slate-950/80 backdrop-blur-md border border-slate-800/80 text-xs">
                     <div className="font-semibold text-white">{siteSettings?.developer_title || 'Full Stack Web Developer'}</div>
-                    <div className="text-cyan-400 text-[11px] font-mono mt-0.5">Stack: React • Express • PostgreSQL</div>
+                    <div className="text-cyan-400 text-[11px] font-mono mt-0.5">Stack: ReactJS • NextJS • MongoDB</div>
                   </div>
                 </div>
 
