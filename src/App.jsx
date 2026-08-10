@@ -19,7 +19,7 @@ function RouteHandler() {
     window.scrollTo(0, 0);
 
     // Update page title dynamically using website_name
-    const webName = siteSettings?.website_name | "SagorDev | Portfolio";
+    const webName = siteSettings?.website_name || "SagorDev | Portfolio";
     if (location.pathname.startsWith('/admin')) {
       document.title = `Admin Panel | ${webName}`;
     } else {
