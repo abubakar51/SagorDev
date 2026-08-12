@@ -29,11 +29,11 @@ export default function ProjectsTab() {
       name: '',
       short_description: '',
       full_description: '',
-      banner_url: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop',
-      github_url: 'https://github.com/example/my-project',
-      live_demo_url: 'https://example.com/demo',
+      banner_url: '',
+      github_url: '',
+      live_demo_url: '',
       featured: false,
-      tags: 'React, Node.js, PostgreSQL',
+      tags: '',
       order_index: projects.length + 1
     });
     setIsModalOpen(true);
